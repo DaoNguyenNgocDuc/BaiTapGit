@@ -22,6 +22,7 @@ namespace webapp.Controllers
             ViewData["Madt"] = new SelectList(context.Dantocs, "Madt", "Tendt");
             ViewData["Maqt"] = new SelectList(context.Quoctiches, "Maqt", "Tenqt");
             return View();
+            NgoCDuc
         }
 
         [HttpPost]
