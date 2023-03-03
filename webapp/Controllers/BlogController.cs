@@ -14,6 +14,7 @@ namespace webapp.Controllers
         public BlogController()
         {
             _context = new covid19Context();
+            123
         }
         public IActionResult Index()
         {
