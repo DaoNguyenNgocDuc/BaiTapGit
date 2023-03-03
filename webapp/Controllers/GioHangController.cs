@@ -19,6 +19,7 @@ namespace webapp.Controllers
             if (lstGioHang == null)
             {
                 lstGioHang = new List<GioHang>();
+                123
                 SessionHelpers.SetObjAsJson(HttpContext.Session, "GioHang", lstGioHang);
             }
             return lstGioHang;
