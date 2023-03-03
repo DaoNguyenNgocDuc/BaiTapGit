@@ -13,6 +13,7 @@ namespace WepApp.Controllers
         {
             var lienhe = _context.Lienhes.ToList();
             return View(lienhe);
+            123
         }
         public IActionResult Feedback()
         {
