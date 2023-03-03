@@ -16,6 +16,7 @@ namespace webapp.Controllers
         public DantocController(covid19Context context)
         {
             _context = context;
+            123
         }
 
         // GET: Dantoc
